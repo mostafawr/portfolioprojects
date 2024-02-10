@@ -1,0 +1,7 @@
+SELECT TOP (1000) [continent]
+      ,[location]
+      ,[date]
+      ,[population]
+      ,[new_vaccinations]
+      ,[commulative_vac_per_country]
+  FROM [covid].[dbo].[percentage_population_vaccinnated]
